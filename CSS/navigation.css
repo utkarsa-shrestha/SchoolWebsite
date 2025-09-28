@@ -1,0 +1,65 @@
+        nav{
+            background-color: white;
+            border-bottom: 2px solid #e6e6e6;
+
+            position: sticky;
+            top: 0;
+            display: flex;
+
+            z-index: 1;
+
+            margin: -7px;
+            padding: 0px;
+
+            height: 70px;
+
+        }
+
+        /*For the logo of the school*/
+        .logo{
+            display: flex;
+        }
+        #logoimg{
+            width: 50px;
+            height: 50px;
+
+            margin-top: 10px;
+            margin-left:20px ;
+            margin-right: 20px;
+
+            border-radius: 50%;
+
+        }
+        #nameofschool{
+            margin-top:5px ;
+        }
+        #nameofschoolonly{
+            color: #3C4F76; 
+
+            font-weight: bold;
+            font-size: 25px;
+
+            font-family: cursive;
+
+        }
+
+        /*For the navigatonpages*/
+        .navigationpages{
+            width: auto;
+            height: auto;
+
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: right;
+
+            margin-left: auto;
+            padding-right: 50px;
+        }
+        .nav{
+            color: rgb(48, 48, 48);
+            transition: 0.3s linear ;
+        }
+        .nav:hover{
+            color: rgb(151, 151, 151);
+        }

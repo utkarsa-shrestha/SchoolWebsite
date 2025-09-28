@@ -1,0 +1,96 @@
+
+.footer{
+    
+    height: 300px;
+
+    background-color: rgb(53, 53, 53);
+
+    margin-top: 50px;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.contactus, .faq, .quickaccess{
+    width: 300px;
+    height: 80%;
+
+    display: flex;
+    align-items: start;
+
+    border-left: 2px solid rgb(39, 39, 39);
+    border-right: 2px solid rgb(39, 39, 39);
+    
+}
+
+.contactus{
+    border-left: none;
+}
+.quickaccess{
+    border-right: none;
+}
+.faq{
+    border: none;
+}
+.txtincontact{
+    margin-left: 30px;
+    color: white;
+}
+
+.socialmedia{
+    width: 40px;
+    cursor: pointer;
+}
+.socialmedia:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+#insta{
+    margin-left: 40px;
+}
+#fb{
+    margin-left: 80px;
+}
+.txtinquickaccess{
+    margin-left: 50px;
+}
+.txtinquickaccess a{
+    color: white;
+}
+.txtinquickaccess a:hover{
+    text-decoration: underline;
+}
+.madeby{
+    color: white;
+    font-weight: bold;
+
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -16px;
+    margin-bottom: -16px;
+
+    height: 40px;
+    background-color: rgb(36, 36, 36);
+
+    display: flex;
+    align-items: center;
+}
+.mysocialmedia{
+    width: 28px;
+    cursor: pointer;
+}
+.mysocialmedia:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+#instagram{
+    margin-left: 700px;
+    margin-right: 70px;
+}
+#facebook{
+    margin-right: 50px;
+}
